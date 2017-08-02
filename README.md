@@ -12,6 +12,7 @@ this happening to you.
 ## Table Of Contents
 
 * [Check Your Crowdsale Contract Parameters](#check-your-crowdsale-contract-parameters)
+* [Even Commonly Used Software Can Have Costly Bugs](#even-commonly-used-software-can-have-costly-bugs)
 * [Mismatch Of Private And Public Keys](#mismatch-of-private-and-public-keys)
 
 <br />
@@ -38,12 +39,43 @@ As no one has the private key to the incorrect address, the amount is forever lo
 ### How To Prevent This Happening To You
 
 * Always triple check the parameters in your crowdsale contract before releasing the address to participants
-* If possible, send a contribution transaction of your own and check that the ethers reach the destination account correctly.
+* If possible, send a contribution transaction of your own and check that the ethers reach the destination account correctly
 
 ### Further Information
 
 * [Did REXmls ICO just lost 6600 ETH due to a copy&paste error?](https://www.reddit.com/r/ethtrader/comments/6qryc2/did_rexmls_ico_just_lost_6600_eth_due_to_a/)
 * [The Solution](https://blog.rexmls.com/the-solution-a2eddbda1a5d)
+
+<br />
+
+<hr />
+
+## Even Commonly Used Software Can Have Costly Bugs
+
+Jun 18 2016
+
+A hacker found a vulnerability in the Parity Multisig and stole ~ USD 32 million from 3 of these multisig wallets after exploiting this vulnerablity. The groups suffering losses from
+this hack were [Edgeless](https://medium.com/@tomasdraksas/edgeless-response-to-parity-hack-3e35e20ba85c),
+[Swarm City](https://press.swarm.city/follow-up-statement-from-the-swarm-city-core-team-3ab0f1274ad3) and
+[æternity](https://blog.aeternity.com/parity-multisig-wallet-hack-47cc507d964d). 
+
+The White Hat Group checked the 500+ wallets suffering from the same vulnerability and exploited this vulnerability to secure ~ USD 208 million before returning all the funds back to
+the original owners. 
+
+### Losses
+
+* ~ USD 32 million
+
+### How To Prevent This Happening To You
+
+* Don't rely on software that is commonly used if you have to secure a large amount of funds. Check that you are using the correct version of the software, and this this software
+  has been sufficiently checked, tested and audited
+
+### Further Information
+
+* [Parity Multisig Vulnerability - White Hat Group Rescue Reconciliation](https://github.com/bokkypoobah/ParityMultisigRecoveryReconciliation)
+* [The WHG has Returned 100% of the Rescued Funds to their Rightful Owners](https://www.reddit.com/r/ethereum/comments/6qrjr5/the_whg_has_returned_100_of_the_rescued_funds_to/)
+* [An In-Depth Look at the Parity Multisig Bug](http://hackingdistributed.com/2017/07/22/deep-dive-parity-bug/)
 
 <br />
 
