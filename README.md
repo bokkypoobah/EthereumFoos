@@ -8,7 +8,9 @@ this happening to you.
 This page has not been created to attribute blame, as developers (myself include) build imperfect systems. This page has been created
 to list some of the weak points in systems that will need to be protected with additional care.
 
-The Ethereum and cryptocurrency field is experimental, and care should be taken to minimise the chances of getting hacked.
+The Ethereum and cryptocurrency field is experimental, and care should be taken to minimise your chances of losing funds.
+
+If you have improvements to this list, please submit a GitHub issue.
 
 <br />
 
@@ -20,6 +22,7 @@ The Ethereum and cryptocurrency field is experimental, and care should be taken 
 * [Hack With Unknown Vector](#hack-with-unknown-vector)
 * [Even Commonly Used Software Can Have Costly Bugs](#even-commonly-used-software-can-have-costly-bugs)
 * [Protect Your Crowdsale Website](#protect-your-crowdsale-website)
+* [The Phishing Wave](#the-phishing-wave)
 * [The Great DAO Hack](#the-great-dao-hack)
 * [Dont Leave Your Ports Open](#dont-leave-your-ports-open)
 * [Mismatch Of Private And Public Keys](#mismatch-of-private-and-public-keys)
@@ -47,8 +50,12 @@ As no one has the private key to the incorrect address, the amount is forever lo
 
 ### How To Prevent This Happening To You
 
-* Always triple check the parameters in your crowdsale contract before releasing the address to participants
+* Always triple check, and have separate individuals recheck, the parameters in your crowdsale contract before releasing the address to participants
 * If possible, send a contribution transaction of your own and check that the ethers reach the destination account correctly
+* If you are using crowdsale/token contracts that made up of a few separate contracts, it is safer to use a script to extract the parameters from each of the
+  contracts and compare the values automatically
+* Develop and test your crowdsale contract way before the crowdsale commences. Then give sufficient for your crowdsale contract code to
+  be audited
 
 ### Further Information
 
@@ -130,10 +137,40 @@ the crowdsale contract address with their own address [0x6a164122d5cf7c840d26e82
 ### How To Prevent This Happening To You
 
 * Your website becomes a high value target when the crowdsale contract address is published on it and will need to be protected with extra care.
+* Protect your DNS registrar, your DNS entries
+* Monitor closely your website during the crowdsale period
 
 ### Further Information
 
 * [Search "CoinDash hack"](https://www.google.com/search?q=CoinDash+hack)
+
+<br />
+
+<hr />
+
+## The Phishing Wave
+
+May 2017
+
+Are crowdsales are becoming quite common in the Ethereum ecosystem, scammers keep inventing new ways to steal your cryptocurrency. Scammers will message you directly with URLs and
+contract addresses. Do not click on these links. Only use links and addresses from trusted sources, and always double check.
+
+See:
+
+* [⚠ WARNING! Stop clicking links. Stop sending to addresses that were msg'd to you. Stop trusting slackbots. Stop trusting anyone on the fucking internet. Stop falling for scams.](https://www.reddit.com/r/ethereum/comments/6lfy73/warning_stop_clicking_links_stop_sending_to/)
+* [Hacks, thefts, and stolen funds due to phishing links between 7/5/2017 - ??? (Slackbot Scambot phishing / Reddit DM / ???)](https://myetherwallet.groovehq.com/knowledge_base/topics/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash?from_search=true)
+
+### Losses
+
+Unknown
+
+### How To Prevent This Happening To You
+
+* See above
+
+### Further Information
+
+* See above
 
 <br />
 
