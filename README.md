@@ -14,6 +14,7 @@ this happening to you.
 * [Check Your Crowdsale Contract Parameters](#check-your-crowdsale-contract-parameters)
 * [Hack With Unknown Vector](#hack-with-unknown-vector)
 * [Even Commonly Used Software Can Have Costly Bugs](#even-commonly-used-software-can-have-costly-bugs)
+* [Protect Your Crowdsale Website](#protect-your-crowdsale-website)
 * [Mismatch Of Private And Public Keys](#mismatch-of-private-and-public-keys)
 
 <br />
@@ -68,7 +69,7 @@ Jul 26 2017
 
 ### Further Information
 
-* [Search "Veritaseum Hack"](https://www.google.com/search?q=veritaseum+hack)
+* [Search "Veritaseum hack"](https://www.google.com/search?q=Veritaseum+hack)
 
 <br />
 
@@ -100,6 +101,30 @@ the original owners.
 * [Parity Multisig Vulnerability - White Hat Group Rescue Reconciliation](https://github.com/bokkypoobah/ParityMultisigRecoveryReconciliation)
 * [The WHG has Returned 100% of the Rescued Funds to their Rightful Owners](https://www.reddit.com/r/ethereum/comments/6qrjr5/the_whg_has_returned_100_of_the_rescued_funds_to/)
 * [An In-Depth Look at the Parity Multisig Bug](http://hackingdistributed.com/2017/07/22/deep-dive-parity-bug/)
+
+<br />
+
+<hr />
+
+## Protect Your Crowdsale Website
+
+Jun 18 2016
+
+[CoinDash](https://coindash.io/) prepared their crowdsale smart contracts and published the address of the crowdsale contract address at the start of the crowdsale. A hacker replaced
+the crowdsale contract address with their own address [0x6a164122d5cf7c840d26e829b46dcc4ed6c0ae48](https://etherscan.io/address/0x6a164122d5cf7c840d26e829b46dcc4ed6c0ae48) and over the
+20 minutes before the hack was discovered, this address collected 43,488 ethers (~ USD 7 million).
+
+### Losses
+
+* 43,488 ethers (~ USD 7 million)
+
+### How To Prevent This Happening To You
+
+* Your website becomes a high value target when the crowdsale contract address is published on it and will need to be protected with extra care.
+
+### Further Information
+
+* [Search "CoinDash hack"](https://www.google.com/search?q=CoinDash+hack)
 
 <br />
 
