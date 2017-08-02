@@ -20,6 +20,7 @@ The Ethereum and cryptocurrency field is experimental, and care should be taken 
 * [Hack With Unknown Vector](#hack-with-unknown-vector)
 * [Even Commonly Used Software Can Have Costly Bugs](#even-commonly-used-software-can-have-costly-bugs)
 * [Protect Your Crowdsale Website](#protect-your-crowdsale-website)
+* [Dont Leave Your Ports Open](#dont-leave-your-ports-open)
 * [Mismatch Of Private And Public Keys](#mismatch-of-private-and-public-keys)
 
 <br />
@@ -132,6 +133,30 @@ the crowdsale contract address with their own address [0x6a164122d5cf7c840d26e82
 ### Further Information
 
 * [Search "CoinDash hack"](https://www.google.com/search?q=CoinDash+hack)
+
+<br />
+
+<hr />
+
+## Dont Leave Your Ports Open
+
+May 12 2016
+
+Patrick, an Ethereum miner, opened up his Ethereum node RPC connect to the world. A script was polling his RPC connect for a chance to move this ethers. When Patrick
+unlocked his account to execute a transaction, a [hacker made off with 7,218 ethers](https://ethereum.stackexchange.com/questions/3887/how-to-reduce-the-chances-of-your-ethereum-wallet-getting-hacked)
+during the 3 second window that the account was unlocked.
+
+### Losses
+
+* 7,218 ethers (~ USD 1.62 million @ Aug 2 2017)
+
+### How To Prevent This Happening To You
+
+* If you open up your Ethereum client ports to the Internet in a non-standard way, make sure you know what you are doing and take measures to protect it.
+
+### Further Information
+
+* [Search "7218 ethers"](https://www.google.com/search?q=7218+ethers)
 
 <br />
 
