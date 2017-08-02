@@ -12,6 +12,7 @@ this happening to you.
 ## Table Of Contents
 
 * [Check Your Crowdsale Contract Parameters](#check-your-crowdsale-contract-parameters)
+* [Hack With Unknown Vector](#hack-with-unknown-vector)
 * [Even Commonly Used Software Can Have Costly Bugs](#even-commonly-used-software-can-have-costly-bugs)
 * [Mismatch Of Private And Public Keys](#mismatch-of-private-and-public-keys)
 
@@ -45,6 +46,29 @@ As no one has the private key to the incorrect address, the amount is forever lo
 
 * [Did REXmls ICO just lost 6600 ETH due to a copy&paste error?](https://www.reddit.com/r/ethtrader/comments/6qryc2/did_rexmls_ico_just_lost_6600_eth_due_to_a/)
 * [The Solution](https://blog.rexmls.com/the-solution-a2eddbda1a5d)
+
+<br />
+
+<hr />
+
+## Hack With Unknown Vector
+
+Jul 26 2017
+
+[Veritaseum](http://veritas.veritaseum.com/) [founder claims USD 8 million in ICO tokens stolen](https://www.coindesk.com/veritaseum-founder-claims-8-million-ico-token-stolen/).
+[Here](https://etherscan.io/address/0xac6491d061e933554222275f12a666e113b66ba2#tokentxns) is the account that received the stolen tokens.
+
+### Losses
+
+* USD 8 million
+
+### How To Prevent This Happening To You
+
+* Vector unknown
+
+### Further Information
+
+* [Search "Veritaseum Hack"](https://www.google.com/search?q=veritaseum+hack)
 
 <br />
 
