@@ -20,6 +20,7 @@ The Ethereum and cryptocurrency field is experimental, and care should be taken 
 * [Hack With Unknown Vector](#hack-with-unknown-vector)
 * [Even Commonly Used Software Can Have Costly Bugs](#even-commonly-used-software-can-have-costly-bugs)
 * [Protect Your Crowdsale Website](#protect-your-crowdsale-website)
+* [The Great DAO Hack](#the-great-dao-hack)
 * [Dont Leave Your Ports Open](#dont-leave-your-ports-open)
 * [Mismatch Of Private And Public Keys](#mismatch-of-private-and-public-keys)
 
@@ -133,6 +134,30 @@ the crowdsale contract address with their own address [0x6a164122d5cf7c840d26e82
 ### Further Information
 
 * [Search "CoinDash hack"](https://www.google.com/search?q=CoinDash+hack)
+
+<br />
+
+<hr />
+
+## The Great DAO Hack
+
+Jun 18 2016
+
+A bug in the smart contracts The DAO was built on had vulnerabilities leading to [the hack, the hard fork of the Ethereum blockchain and the return of funds to the original investors](https://www.cryptocompare.com/coins/guides/the-dao-the-hack-the-soft-fork-and-the-hard-fork/).
+
+### Losses
+
+* USD 70 million (at that time)
+
+### How To Prevent This Happening To You
+
+* Smart contracts are high value targets when they hold funds. Make sure that your smart contracts are well tested and audited. Keep your smart contracts simple so it is easy to
+  verify the functionality
+* See [The History of the DAO and Lessons Learned](https://blog.slock.it/the-history-of-the-dao-and-lessons-learned-d06740f8cfa5) and [search "The DAO hack lessons"](https://www.google.com/search?q=The+DAO+hack+lessons) 
+
+### Further Information
+
+* [Search "The DAO hack"](https://www.google.com/search?q=The+DAO+hack)
 
 <br />
 
