@@ -70,7 +70,8 @@ Jul 26 2017
 
 ### How To Prevent This Happening To You
 
-* Vector unknown
+* Vector unknown, but the [hacked account](https://etherscan.io/address/0x82c48875c17ee5812f909a9d75c0f64f7a8719fe#tokentxns) is not a multisig account. This could perhaps have
+  been avoided by using a hardware wallet like the [Ledger Nano S](https://www.ledgerwallet.com/products/ledger-nano-s) or the [Trezor](https://trezor.io/).
 
 ### Further Information
 
