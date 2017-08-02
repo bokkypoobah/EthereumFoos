@@ -1,5 +1,7 @@
 # Ethereum Foos - A Curated List Of Costly Ethereum Mistakes To Learn From
 
+Status: Just commencing work on this. Enter a GitHub issue if you have further information to include into this report.
+
 This is a list of costly mistakes that have occurred in the Ethereum ecosystem, and some suggestions on how to mitigate the risk of
 this happening to you.
 
@@ -9,7 +11,39 @@ this happening to you.
 
 ## Table Of Contents
 
+* [Check Your Crowdsale Contract Parameters](#check-your-crowdsale-contract-parameters)
 * [Mismatch Of Private And Public Keys](#mismatch-of-private-and-public-keys)
+
+<br />
+
+<hr />
+
+## Check Your Crowdsale Contract Parameters
+
+Jul 31 2017
+
+[REXMls](http://rexmls.com/)'s deployed their [RexToken](contracts/RexToken_DeployedAt_0x99d439455991f7f4885f20c634c9a31918d366e5.md) crowdsale contract to
+[0x99d439455991f7f4885f20c634c9a31918d366e5](https://etherscan.io/address/0x99d439455991f7f4885f20c634c9a31918d366e5#code) with an incorrect
+`vault` address.
+
+Ethers contributions to the crowdsale contract were transferred to the incorrect `vault` address [0x3e4b00b607d0980668ca6e50201576b00000000](https://etherscan.io/address/0x3e4b00b607d0980668ca6e50201576b00000000),
+instead of the correct `vault` address of [0x03e4b00b607d09811b0fa61cf636a6460861939f](https://etherscan.io/address/0x03e4b00b607d09811b0fa61cf636a6460861939f).
+
+As no one has the private key to the incorrect address, the amount is forever locked in the incorrect address.
+
+### Losses
+
+* [6,687.6257271739995 ETH](https://etherscan.io/address/0x03e4b00b607d0980668ca6e50201576b00000000#internaltx)
+
+### How To Prevent This Happening To You
+
+* Always triple check the parameters in your crowdsale contract before releasing the address to participants
+* If possible, send a contribution transaction of your own and check that the ethers reach the destination account correctly.
+
+### Further Information
+
+* [Did REXmls ICO just lost 6600 ETH due to a copy&paste error?](https://www.reddit.com/r/ethtrader/comments/6qryc2/did_rexmls_ico_just_lost_6600_eth_due_to_a/)
+* [The Solution](https://blog.rexmls.com/the-solution-a2eddbda1a5d)
 
 <br />
 
@@ -30,21 +64,15 @@ So I created my first ever open source issue [#19 Invalid public key / private k
 It turned out that a downstream library used by ethaddress.org had a bug that generated incorrect private and public key pairs -
 [ #14 Update ethereumjs-tx dependency](https://github.com/SilentCicero/ethereumjs-accounts/pull/14).
 
-<br />
-
 ### Losses
 
 * 121 ETH - [Trying to recover my 121 ETH from 2015 js bug](https://www.reddit.com/r/ethereum/comments/6chqyk/trying_to_recover_my_121_eth_from_2015_js_bug/)
-
-<br />
 
 ### How To Prevent This Happening To You
 
 * Always test your new accounts before sending substantial amounts to your account
   * Test by unlocking your private key in another client and check the public key
   * Test by sending a small amount of ethers to your new account, then sending back the ethers to the originating account
-
-<br />
 
 ### Further Information
 
@@ -54,4 +82,4 @@ It turned out that a downstream library used by ethaddress.org had a bug that ge
 
 <br />
 
-(c) BokkyPooBah / Bok Consulting Pty Ltd and others - July 23 2017. The MIT Licence.
+(c) BokkyPooBah / Bok Consulting Pty Ltd - Aug 2 2017. The MIT Licence.
