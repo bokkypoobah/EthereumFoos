@@ -5,6 +5,11 @@ Status: Just commencing work on this. Enter a GitHub issue if you have further i
 This is a list of costly mistakes that have occurred in the Ethereum ecosystem, and some suggestions on how to mitigate the risk of
 this happening to you.
 
+This page has not been created to attribute blame, as developers (myself include) build imperfect systems. This page has been created
+to list some of the weak points in systems that will need to be protected with additional care.
+
+The Ethereum and cryptocurrency field is experimental, and care should be taken to minimise the chances of getting hacked.
+
 <br />
 
 <hr />
@@ -101,6 +106,7 @@ the original owners.
 * [Parity Multisig Vulnerability - White Hat Group Rescue Reconciliation](https://github.com/bokkypoobah/ParityMultisigRecoveryReconciliation)
 * [The WHG has Returned 100% of the Rescued Funds to their Rightful Owners](https://www.reddit.com/r/ethereum/comments/6qrjr5/the_whg_has_returned_100_of_the_rescued_funds_to/)
 * [An In-Depth Look at the Parity Multisig Bug](http://hackingdistributed.com/2017/07/22/deep-dive-parity-bug/)
+* [The Multi-sig Hack: A Postmortem](https://www.reddit.com/r/ethereum/comments/6ohadd/the_multisig_hack_a_postmortem/)
 
 <br />
 
