@@ -34,6 +34,54 @@ If you have improvements to this list, please submit a GitHub issue.
 
 ## What Crowdsale?
 
+Aug 5 2017
+
+User [/u/White_sama](https://www.reddit.com/user/White_sama) posted [Eros was (obviously) a scam. I sure hope nobody here invested](https://www.reddit.com/r/ethtrader/comments/6rlhs3/eros_was_obviously_a_scam_i_sure_hope_nobody_here/).
+
+The link [https://eros.vision/](https://eros.vision/) now displays:
+
+<kbd><img src="images/ErosWebsite-20170805-034155.png" /></kbd>
+
+The link [https://icobazaar.com/eros](https://icobazaar.com/eros) show that the crowdsale raised 4,835,093.00 USD:
+
+<kbd><img src="images/ErosIcoBazaar-20170805-034438.png" /></kbd>
+
+There was a warning [Alert: EROS.vision ICO is a scam](https://www.reddit.com/r/ethtrader/comments/6l73xk/alert_erosvision_ico_is_a_scam/) posted on Jul 4 2017.
+
+The whitepaper was apparently copied from [https://icobazaar.com/static/13fd64a514d4261422d424249b838172/464.pdf](https://icobazaar.com/static/13fd64a514d4261422d424249b838172/464.pdf),
+but is now deleted:
+
+<kbd><img src="images/ErosWhitepaper-20170805-035128.png" /></kbd>
+
+One of the founders LinkedIn account [https://www.linkedin.com/in/michael-carter-o-brien-a32432146](https://www.linkedin.com/in/michael-carter-o-brien-a32432146), apparently:
+
+<kbd><img src="images/ErosLinkedIn-20170805-040424.png" /></kbd>
+
+One of the founders GitHub account [https://github.com/kairan0215](https://github.com/kairan0215) contains 3 forked projects, dated May 5 2017, and no further activity:
+
+<kbd><img src="images/ErosGithub-20170805-035534.png" /></kbd>
+
+And Eros placed a press release in Bitcoinist - [http://bitcoinist.com/eros-openbazaar-sex-backpage-ico/](http://bitcoinist.com/eros-openbazaar-sex-backpage-ico/):
+
+<kbd><img src="images/ErosBitcoinist-20170805-122556.png" /></kbd>
+<kbd><img src="images/ErosBitcoinist-20170805-122626.png" /></kbd>
+
+### Losses
+
+* 4,835,093.00 USD
+
+### How To Prevent This Happening To You
+
+{TODO}
+
+### Further Information
+
+* Another crowdsale scam - Contingency
+  * [Contingency Presale just went live! $140K USD raised so far](https://www.reddit.com/r/ethtrader/comments/5rbxo2/contingency_presale_just_went_live_140k_usd/)
+  * [So what happened with the Contingency scammers?](https://www.reddit.com/r/ethtrader/comments/5uke1t/so_what_happened_with_the_contingency_scammers/)
+  * [Contingency - With pre-sale launching in a little over 24 hours, let's meet the team](https://www.reddit.com/r/ethtrader/comments/5qymmy/contingency_with_presale_launching_in_a_little/)
+    * [Contingency — Who are they?](https://medium.com/@ContingencyTech/contingency-who-are-they-77778ece54ff#.sz283oydd)
+
 <br />
 
 <hr />
