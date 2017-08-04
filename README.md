@@ -159,6 +159,7 @@ See:
 
 * [⚠ WARNING! Stop clicking links. Stop sending to addresses that were msg'd to you. Stop trusting slackbots. Stop trusting anyone on the fucking internet. Stop falling for scams.](https://www.reddit.com/r/ethereum/comments/6lfy73/warning_stop_clicking_links_stop_sending_to/)
 * [Hacks, thefts, and stolen funds due to phishing links between 7/5/2017 - ??? (Slackbot Scambot phishing / Reddit DM / ???)](https://myetherwallet.groovehq.com/knowledge_base/topics/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash?from_search=true)
+* [EtherScamDb.info](https://etherscamdb.info/scams/)
 
 ### Losses
 
