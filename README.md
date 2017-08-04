@@ -18,6 +18,7 @@ If you have improvements to this list, please submit a GitHub issue.
 
 ## Table Of Contents
 
+* [What Crowdsale?](#what-crowdsale)
 * [Check Your Crowdsale Contract Parameters](#check-your-crowdsale-contract-parameters)
 * [Hack With Unknown Vector](#hack-with-unknown-vector)
 * [Even Commonly Used Software Can Have Costly Bugs](#even-commonly-used-software-can-have-costly-bugs)
@@ -26,6 +27,12 @@ If you have improvements to this list, please submit a GitHub issue.
 * [The Great DAO Hack](#the-great-dao-hack)
 * [Dont Leave Your Ports Open](#dont-leave-your-ports-open)
 * [Mismatch Of Private And Public Keys](#mismatch-of-private-and-public-keys)
+
+<br />
+
+<hr />
+
+## What Crowdsale?
 
 <br />
 
