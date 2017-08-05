@@ -66,13 +66,19 @@ And Eros placed a press release in Bitcoinist - [http://bitcoinist.com/eros-open
 <kbd><img src="images/ErosBitcoinist-20170805-122556.png" /></kbd>
 <kbd><img src="images/ErosBitcoinist-20170805-122626.png" /></kbd>
 
+<br />
+
 ### Losses
 
 * 4,835,093.00 USD
 
+<br />
+
 ### How To Prevent This Happening To You
 
 {TODO}
+
+<br />
 
 ### Further Information
 
@@ -104,9 +110,13 @@ As no one has the private key to the incorrect address, the amount is forever lo
 REXMls has since deployed a new crowdsale contract to [0xf05a9382a4c3f29e2784502754293d88b835109c](https://etherscan.io/address/0xf05a9382a4c3f29e2784502754293d88b835109c#code), this time sending the contributed funds
 to the correct vault, and they will migrate the token balances into a new token contract at the end of the crowdsale.
 
+<br />
+
 ### Losses
 
 * [6,687.6257271739995 ETH](https://etherscan.io/address/0x03e4b00b607d0980668ca6e50201576b00000000#internaltx) (~ USD 1,480,573.46 @ 221.39 ETH/USD)
+
+<br />
 
 ### How To Prevent This Happening To You
 
@@ -116,6 +126,8 @@ to the correct vault, and they will migrate the token balances into a new token 
   contracts and compare the values automatically
 * Develop and test your crowdsale contract way before the crowdsale commences. Then give sufficient for your crowdsale contract code to
   be audited
+
+<br />
 
 ### Further Information
 
@@ -133,14 +145,20 @@ Jul 26 2017
 [Veritaseum](http://veritas.veritaseum.com/) [founder claims USD 8 million in ICO tokens stolen](https://www.coindesk.com/veritaseum-founder-claims-8-million-ico-token-stolen/).
 [Here](https://etherscan.io/address/0xac6491d061e933554222275f12a666e113b66ba2#tokentxns) is the account that received the stolen tokens.
 
+<br />
+
 ### Losses
 
 * USD 8 million
+
+<br />
 
 ### How To Prevent This Happening To You
 
 * Vector unknown, but the [hacked account](https://etherscan.io/address/0x82c48875c17ee5812f909a9d75c0f64f7a8719fe#tokentxns) is not a multisig account. This could perhaps have
   been avoided by using a hardware wallet like the [Ledger Nano S](https://www.ledgerwallet.com/products/ledger-nano-s) or the [Trezor](https://trezor.io/).
+
+<br />
 
 ### Further Information
 
@@ -162,14 +180,20 @@ this hack were [Edgeless](https://medium.com/@tomasdraksas/edgeless-response-to-
 The White Hat Group checked the 500+ wallets suffering from the same vulnerability and exploited this vulnerability to secure ~ USD 208 million before returning all the funds back to
 the original owners. 
 
+<br />
+
 ### Losses
 
 * ~ USD 32 million
+
+<br />
 
 ### How To Prevent This Happening To You
 
 * Don't rely on software that is commonly used if you have to secure a large amount of funds. Check that you are using the correct version of the software, and this this software
   has been sufficiently checked, tested and audited
+
+<br />
 
 ### Further Information
 
@@ -190,9 +214,13 @@ Jun 18 2016
 the crowdsale contract address with their own address [0x6a164122d5cf7c840d26e829b46dcc4ed6c0ae48](https://etherscan.io/address/0x6a164122d5cf7c840d26e829b46dcc4ed6c0ae48) and over the
 20 minutes before the hack was discovered, this address collected 43,488 ethers (~ USD 7 million).
 
+<br />
+
 ### Losses
 
 * 43,488 ethers (~ USD 7 million)
+
+<br />
 
 ### How To Prevent This Happening To You
 
@@ -200,6 +228,8 @@ the crowdsale contract address with their own address [0x6a164122d5cf7c840d26e82
   * Your website becomes a high value target when the crowdsale contract address is published on it and will need to be protected with extra care.
   * Protect your DNS registrar, your DNS entries
   * Monitor closely your website during the crowdsale period
+
+<br />
 
 ### Further Information
 
@@ -216,7 +246,9 @@ May 2017
 As crowdsales are becoming quite common in the Ethereum ecosystem, scammers keep inventing new ways to steal your cryptocurrency. Scammers will message you directly with URLs and
 contract addresses. Do not click on these links. Only use links and addresses from trusted sources, and always double check.
 
-### Slackbot Phishing
+<br />
+
+#### Slackbot Phishing
 Following is an example of an official-sounding Slackbot message offering some free tokens and providing a link to a phishing website with the URL myether**vv**alet DOT com (note the **vv** instead of **w**):
 
 <kbd><img src="images/NotMyEtherwalletSlackbotPhishing-20170805-165220.png" /></kbd>
@@ -233,7 +265,15 @@ The SSL certificate looks authentic enough (except for the spoofed domain name):
 I copied and pasted the domain name into [https://www.whois.com](https://www.whois.com) and this shows the website is registered to **Protection of Private Person** (which is a big warning sign):
 <kbd><img src="images/NotMyEtherwalletWhois-20170805-165603.png" /></kbd>
 
-### A Phishing Account
+A lot of cryptocurrency based crowdsale projects use Slacks and their administrators cannot stop these Slackbot messages from being
+broadcast to all their users. Apparently it may not be a high priority for the company providing these Slack service to shut down these
+Slackbot services as these cryptocurrency projects do not pay for the Slack services.
+
+Some of these projects are moving into more secure forum services like [Discord](https://discordapp.com/).
+
+<br />
+
+#### A Phishing Account
 
 Following is an account identified in EtherScan as a phisher's account [0x5b1a67c25ba691b251f39dde42bc7384e1c48814](https://etherscan.io/address/0x5b1a67c25ba691b251f39dde42bc7384e1c48814#tokentxns):
 
@@ -244,28 +284,39 @@ this phisher has so far accummulated ~USD 50,000 in ethers and tokens:
 
 <kbd><img src="images/Phishing2-20170806-021817.png" /></kbd>
 
-### See Also
-
-* [⚠ WARNING! Stop clicking links. Stop sending to addresses that were msg'd to you. Stop trusting slackbots. Stop trusting anyone on the fucking internet. Stop falling for scams.](https://www.reddit.com/r/ethereum/comments/6lfy73/warning_stop_clicking_links_stop_sending_to/)
-* [Hacks, thefts, and stolen funds due to phishing links between 7/5/2017 - ??? (Slackbot Scambot phishing / Reddit DM / ???)](https://myetherwallet.groovehq.com/knowledge_base/topics/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash?from_search=true)
-* [EtherScamDb.info](https://etherscamdb.info/scams/)
+<br />
 
 ### Losses
 
 Unknown
 
+<br />
+
 ### How To Prevent This Happening To You
 
-* Do not blindly click on web links in messages (Slack, Slackbots, Twitter, Reddit, ...) or emails sent to you
-* Carefully verify websites you visit
-* Bookmark your verified website
-* Access your verified website through your saved bookmarks
-* Do NOT blindly rely on autocompleted websites - if you have accessed a spoofed website in the past, your autocompletion may retrieve the spoofed website from your browser history
-* You can hover over a link to check the exact naming of the link at the bottom left of your browser
+* Cryptocurrency users
+  * Do not blindly click on web links in messages (Slack, Slackbots, Twitter, Reddit, ...) or emails sent to you
+  * Carefully verify websites you visit
+  * Bookmark your verified website
+  * Access your verified website through your saved bookmarks
+  * Do NOT blindly rely on autocompleted websites - if you have accessed a spoofed website in the past, your autocompletion may retrieve the spoofed website from your browser history
+  * You can hover over a link to check the exact naming of the link at the bottom left of your browser
+  * Use a hardware wallet like the [Ledger Nano S](https://www.ledgerwallet.com/products/ledger-nano-s) or [Trezor](https://trezor.io/). These devices cost less than USD 100 and could save you a lot of losses.
+
+* Slack based projects
+  * Consider Discord or services that are more secure than Slack
+  * Rename your **#general** channel to **#announcements**, and only allow the project administrators to post to this
+    **#announcements** channel.
+  * Inform your users that all official announcements will be broadcast in the **#announcement** channel, and tell them to ignore all
+    other messages. 
+
+<br />
 
 ### Further Information
 
-* See above
+* [⚠ WARNING! Stop clicking links. Stop sending to addresses that were msg'd to you. Stop trusting slackbots. Stop trusting anyone on the fucking internet. Stop falling for scams.](https://www.reddit.com/r/ethereum/comments/6lfy73/warning_stop_clicking_links_stop_sending_to/)
+* [Hacks, thefts, and stolen funds due to phishing links between 7/5/2017 - ??? (Slackbot Scambot phishing / Reddit DM / ???)](https://myetherwallet.groovehq.com/knowledge_base/topics/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash?from_search=true)
+* [EtherScamDb.info](https://etherscamdb.info/scams/)
 
 <br />
 
@@ -277,15 +328,21 @@ Jun 18 2016
 
 A bug in the smart contracts The DAO was built on had vulnerabilities leading to [the hack, the hard fork of the Ethereum blockchain and the return of funds to the original investors](https://www.cryptocompare.com/coins/guides/the-dao-the-hack-the-soft-fork-and-the-hard-fork/).
 
+<br />
+
 ### Losses
 
 * USD 70 million (at that time)
+
+<br />
 
 ### How To Prevent This Happening To You
 
 * Smart contracts are high value targets when they hold funds. Make sure that your smart contracts are well tested and audited. Keep your smart contracts simple so it is easy to
   verify the functionality
 * See [The History of the DAO and Lessons Learned](https://blog.slock.it/the-history-of-the-dao-and-lessons-learned-d06740f8cfa5) and [search "The DAO hack lessons"](https://www.google.com/search?q=The+DAO+hack+lessons) 
+
+<br />
 
 ### Further Information
 
@@ -303,13 +360,19 @@ Patrick, an Ethereum miner, opened up his Ethereum node RPC connect to the world
 unlocked his account to execute a transaction, a [hacker made off with 7,218 ethers](https://ethereum.stackexchange.com/questions/3887/how-to-reduce-the-chances-of-your-ethereum-wallet-getting-hacked)
 during the 3 second window that the account was unlocked.
 
+<br />
+
 ### Losses
 
 * 7,218 ethers (~ USD 1.62 million @ Aug 2 2017)
 
+<br />
+
 ### How To Prevent This Happening To You
 
 * If you open up your Ethereum client ports to the Internet in a non-standard way, make sure you know what you are doing and take measures to protect it.
+
+<br />
 
 ### Further Information
 
@@ -334,15 +397,21 @@ So I created my first ever open source issue [#19 Invalid public key / private k
 It turned out that a downstream library used by ethaddress.org had a bug that generated incorrect private and public key pairs -
 [ #14 Update ethereumjs-tx dependency](https://github.com/SilentCicero/ethereumjs-accounts/pull/14).
 
+<br />
+
 ### Losses
 
 * 121 ETH - [Trying to recover my 121 ETH from 2015 js bug](https://www.reddit.com/r/ethereum/comments/6chqyk/trying_to_recover_my_121_eth_from_2015_js_bug/)
+
+<br />
 
 ### How To Prevent This Happening To You
 
 * Always test your new accounts before sending substantial amounts to your account
   * Test by unlocking your private key in another client and check the public key
   * Test by sending a small amount of ethers to your new account, then sending back the ethers to the originating account
+
+<br />
 
 ### Further Information
 
