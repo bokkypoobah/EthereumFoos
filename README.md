@@ -94,14 +94,17 @@ Jul 31 2017
 [0x99d439455991f7f4885f20c634c9a31918d366e5](https://etherscan.io/address/0x99d439455991f7f4885f20c634c9a31918d366e5#code) with an incorrect
 `vault` address.
 
-Ethers contributions to the crowdsale contract were transferred to the incorrect `vault` address [0x3e4b00b607d0980668ca6e50201576b00000000](https://etherscan.io/address/0x3e4b00b607d0980668ca6e50201576b00000000),
+Ethers contributions to the crowdsale contract were transferred to the incorrect `vault` address [0x03e4b00b607d0980668ca6e50201576b00000000](https://etherscan.io/address/0x03e4b00b607d0980668ca6e50201576b00000000),
 instead of the correct `vault` address of [0x03e4b00b607d09811b0fa61cf636a6460861939f](https://etherscan.io/address/0x03e4b00b607d09811b0fa61cf636a6460861939f).
 
 As no one has the private key to the incorrect address, the amount is forever locked in the incorrect address.
 
+REXMls has since deployed a new crowdsale contract to [0xf05a9382a4c3f29e2784502754293d88b835109c](https://etherscan.io/address/0xf05a9382a4c3f29e2784502754293d88b835109c#code), this time sending the contributed funds
+to the correct vault, and they will migrate the token balances into a new token contract at the end of the crowdsale.
+
 ### Losses
 
-* [6,687.6257271739995 ETH](https://etherscan.io/address/0x03e4b00b607d0980668ca6e50201576b00000000#internaltx)
+* [6,687.6257271739995 ETH](https://etherscan.io/address/0x03e4b00b607d0980668ca6e50201576b00000000#internaltx) (~ USD 1,480,573.46 @ 221.39 ETH/USD)
 
 ### How To Prevent This Happening To You
 
