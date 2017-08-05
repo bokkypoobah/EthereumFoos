@@ -76,6 +76,8 @@ And Eros placed a press release in Bitcoinist - [http://bitcoinist.com/eros-open
 
 ### Further Information
 
+* [Imminent ICO of Uber-like decentralized “SilkRoad of Sex” from Eros](https://coinidol.com/imminent-ico-of-silkroad-of-sex/)
+* [How to announce an ICO soon after a related scam ICO launches?](https://www.reddit.com/r/ethtrader/comments/6lcefe/how_to_announce_an_ico_soon_after_a_related_scam/)
 * Another crowdsale scam - Contingency
   * [Contingency Presale just went live! $140K USD raised so far](https://www.reddit.com/r/ethtrader/comments/5rbxo2/contingency_presale_just_went_live_140k_usd/)
   * [So what happened with the Contingency scammers?](https://www.reddit.com/r/ethtrader/comments/5uke1t/so_what_happened_with_the_contingency_scammers/)
