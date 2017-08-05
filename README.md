@@ -23,7 +23,7 @@ If you have improvements to this list, please submit a GitHub issue.
 * [Hack With Unknown Vector](#hack-with-unknown-vector)
 * [Even Commonly Used Software Can Have Costly Bugs](#even-commonly-used-software-can-have-costly-bugs)
 * [Protect Your Crowdsale Website](#protect-your-crowdsale-website)
-* [The Phishing Wave](#the-phishing-wave)
+* [The Phishing Waves](#the-phishing-waves)
 * [The Great DAO Hack](#the-great-dao-hack)
 * [Dont Leave Your Ports Open](#dont-leave-your-ports-open)
 * [Mismatch Of Private And Public Keys](#mismatch-of-private-and-public-keys)
@@ -196,9 +196,10 @@ the crowdsale contract address with their own address [0x6a164122d5cf7c840d26e82
 
 ### How To Prevent This Happening To You
 
-* Your website becomes a high value target when the crowdsale contract address is published on it and will need to be protected with extra care.
-* Protect your DNS registrar, your DNS entries
-* Monitor closely your website during the crowdsale period
+* Crowdsale Projects
+  * Your website becomes a high value target when the crowdsale contract address is published on it and will need to be protected with extra care.
+  * Protect your DNS registrar, your DNS entries
+  * Monitor closely your website during the crowdsale period
 
 ### Further Information
 
@@ -208,14 +209,42 @@ the crowdsale contract address with their own address [0x6a164122d5cf7c840d26e82
 
 <hr />
 
-## The Phishing Wave
+## The Phishing Waves
 
 May 2017
 
-Are crowdsales are becoming quite common in the Ethereum ecosystem, scammers keep inventing new ways to steal your cryptocurrency. Scammers will message you directly with URLs and
+As crowdsales are becoming quite common in the Ethereum ecosystem, scammers keep inventing new ways to steal your cryptocurrency. Scammers will message you directly with URLs and
 contract addresses. Do not click on these links. Only use links and addresses from trusted sources, and always double check.
 
-See:
+### Slackbot Phishing
+Following is an example of an official-sounding Slackbot message offering some free tokens and providing a link to a phishing website with the URL myether**vv**alet DOT com (note the **vv** instead of **w**):
+
+<kbd><img src="images/NotMyEtherwalletSlackbotPhishing-20170805-165220.png" /></kbd>
+
+Clicking on the link takes me to myether**vv**alet DOT com:
+<kbd><img src="images/NotMyEtherWallet-20170805-165304.png" /></kbd>
+
+Clicking on the green padlock next to the URL in the web browser shows me the web site information:
+<kbd><img src="images/NotMyEtherwalletWebsiteInformation-20170805-165359.png" /></kbd>
+
+The SSL certificate looks authentic enough (except for the spoofed domain name):
+<kbd><img src="images/NotMyEtherwalletCertificate-20170805-165424.png" /></kbd>
+
+I copied and pasted the domain name into [https://www.whois.com](https://www.whois.com) and this shows the website is registered to **Protection of Private Person** (which is a big warning sign):
+<kbd><img src="images/NotMyEtherwalletWhois-20170805-165603.png" /></kbd>
+
+### A Phishing Account
+
+Following is an account identified in EtherScan as a phisher's account [0x5b1a67c25ba691b251f39dde42bc7384e1c48814](https://etherscan.io/address/0x5b1a67c25ba691b251f39dde42bc7384e1c48814#tokentxns):
+
+<kbd><img src="images/Phishing1-20170806-021404.png" /></kbd>
+
+Following the trail of transactions shows the transfers to [0x39b2254d0cba73fb65f34fa6ccd4dad6d4c16e65](https://etherscan.io/address/0x39b2254d0cba73fb65f34fa6ccd4dad6d4c16e65#tokentxns) and
+this phisher has so far accummulated ~USD 50,000 in ethers and tokens:
+
+<kbd><img src="images/Phishing2-20170806-021817.png" /></kbd>
+
+### See Also
 
 * [⚠ WARNING! Stop clicking links. Stop sending to addresses that were msg'd to you. Stop trusting slackbots. Stop trusting anyone on the fucking internet. Stop falling for scams.](https://www.reddit.com/r/ethereum/comments/6lfy73/warning_stop_clicking_links_stop_sending_to/)
 * [Hacks, thefts, and stolen funds due to phishing links between 7/5/2017 - ??? (Slackbot Scambot phishing / Reddit DM / ???)](https://myetherwallet.groovehq.com/knowledge_base/topics/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash?from_search=true)
@@ -227,7 +256,12 @@ Unknown
 
 ### How To Prevent This Happening To You
 
-* See above
+* Do not blindly click on web links in messages (Slack, Slackbots, Twitter, Reddit, ...) or emails sent to you
+* Carefully verify websites you visit
+* Bookmark your verified website
+* Access your verified website through your saved bookmarks
+* Do NOT blindly rely on autocompleted websites - if you have accessed a spoofed website in the past, your autocompletion may retrieve the spoofed website from your browser history
+* You can hover over a link to check the exact naming of the link at the bottom left of your browser
 
 ### Further Information
 
