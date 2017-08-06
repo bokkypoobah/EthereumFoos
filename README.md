@@ -6,7 +6,7 @@ This is a list of costly mistakes that have occurred in the Ethereum ecosystem, 
 this happening to you.
 
 This page has not been created to attribute blame, as developers (myself include) build imperfect systems. This page has been created
-to list some of the weak points in systems that will need to be protected with additional care.
+to list some of the weak points in systems (including people and group processes) that will need to be protected with additional care.
 
 The Ethereum and cryptocurrency field is experimental, and care should be taken to minimise your chances of losing funds.
 
