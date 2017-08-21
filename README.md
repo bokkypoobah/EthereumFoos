@@ -18,6 +18,7 @@ If you have improvements to this list, please submit a GitHub issue.
 
 ## Table Of Contents
 
+* [An Enigma](#an-enigma)
 * [What Crowdsale?](#what-crowdsale)
 * [Check Your Crowdsale Contract Parameters](#check-your-crowdsale-contract-parameters)
 * [Hack With Unknown Vector](#hack-with-unknown-vector)
@@ -27,6 +28,70 @@ If you have improvements to this list, please submit a GitHub issue.
 * [The Great DAO Hack](#the-great-dao-hack)
 * [Dont Leave Your Ports Open](#dont-leave-your-ports-open)
 * [Mismatch Of Private And Public Keys](#mismatch-of-private-and-public-keys)
+
+<br />
+
+<hr />
+
+## An Enigma
+
+Aug 22 2017
+
+User [/u/AEonCIpher](https://www.reddit.com/user/AEonCIpher) posted [Enigma ICO website hacked? address from enigma.co/presale already has 590+ etherum deposited. Also getting announcements of open presale access on slack channel and email](https://www.reddit.com/r/ethereum/comments/6v0upc/enigma_ico_website_hacked_address_from/).
+
+User [/u/YYCExplorer](https://www.reddit.com/user/YYCExplorer) added that the following message was posted by the phishers:
+
+> Hello All,
+>
+> We are pleased with the enormous support we have gotten in the last couple of weeks, The Enigma team has decided to open the Pre-Sale to the public. The hard cap for this pre sale will be 20 Million. Please note that tokens will be calculated and distributed based on how much the Pre-Sale raises.
+>
+> Ethereum address: 0x29D7d1dd5B6f9C864d9db560D72a247c178aE86B
+
+And the address [0x29D7d1dd5B6f9C864d9db560D72a247c178aE86B](https://etherscan.io/address/0x29D7d1dd5B6f9C864d9db560D72a247c178aE86B)
+shows that 1,492 ethers (4 lots of 373) were transferred out of this account.
+
+<kbd><img src="images/EnigmaPhishing-20170822-002229.png" /></kbd>
+
+According to [Here’s one way hackers can be stopped from stealing millions in an initial coin offering](http://www.businessinsider.sg/ethereum-price-ico-hack-2017-7/),
+the cofounder and chief product officer of Enigma was quoted on the Coindash hack (see below):
+
+> Hackers got into the backend of the site and changed the address...
+>
+> Thus, investors sent their money to the wrong Ethereum address.
+
+Hmmm.
+
+An then the scammers came back for more with the following message posted on slack (from [Enigma hackers have no shame](https://www.reddit.com/r/ethtrader/comments/6v949g/enigma_hackers_have_no_shame/)):
+
+<kbd><img src="images/EnigmaPhishing-1-20170822-1825.jpg" /></kbd>
+
+Clicking on the link took me to:
+
+<kbd><img src="images/EnigmaPhishing-2-20170822-182641.png" /></kbd>
+
+Clicking on "CLICK HERE TO VERIFY YOUR ADDRESS" reveals a text box for users to enter their private keys:
+
+<kbd><img src="images/EnigmaPhishing-3-20170822-182837.png" /></kbd>
+
+<br />
+
+### Losses
+
+* 1,492 ethers ~ USD 500k @ 341.4710 ETH/USD
+
+<br />
+
+### How To Prevent This Happening To You
+
+* Crowdsale investors, don't respond to unofficial messages. Be aware that even the official web site can be hacked as has happened
+  twice in about 2 months.
+
+<br />
+
+### Further Information
+
+* [Hackers nab $500,000 as Enigma is compromised weeks before its ICO](https://techcrunch.com/2017/08/21/hack-enigma-500000-ico/)
+* [Hacker Nets over $500,000 after Hacking Enigma before ICO Date](https://www.cryptocoinsnews.com/hacker-nets-over-500000-after-hacking-enigma-before-its-ico-date/)
 
 <br />
 
@@ -175,10 +240,10 @@ Jun 18 2016
 A hacker found a vulnerability in the Parity Multisig and stole ~ USD 32 million from 3 of these multisig wallets after exploiting this vulnerablity. The groups suffering losses from
 this hack were [Edgeless](https://medium.com/@tomasdraksas/edgeless-response-to-parity-hack-3e35e20ba85c),
 [Swarm City](https://press.swarm.city/follow-up-statement-from-the-swarm-city-core-team-3ab0f1274ad3) and
-[æternity](https://blog.aeternity.com/parity-multisig-wallet-hack-47cc507d964d). 
+[æternity](https://blog.aeternity.com/parity-multisig-wallet-hack-47cc507d964d).
 
 The White Hat Group checked the 500+ wallets suffering from the same vulnerability and exploited this vulnerability to secure ~ USD 208 million before returning all the funds back to
-the original owners. 
+the original owners.
 
 <br />
 
@@ -308,7 +373,7 @@ Unknown
   * Rename your **#general** channel to **#announcements**, and only allow the project administrators to post to this
     **#announcements** channel.
   * Inform your users that all official announcements will be broadcast in the **#announcement** channel, and tell them to ignore all
-    other messages. 
+    other messages.
 
 <br />
 
@@ -317,6 +382,7 @@ Unknown
 * [⚠ WARNING! Stop clicking links. Stop sending to addresses that were msg'd to you. Stop trusting slackbots. Stop trusting anyone on the fucking internet. Stop falling for scams.](https://www.reddit.com/r/ethereum/comments/6lfy73/warning_stop_clicking_links_stop_sending_to/)
 * [Hacks, thefts, and stolen funds due to phishing links between 7/5/2017 - ??? (Slackbot Scambot phishing / Reddit DM / ???)](https://myetherwallet.groovehq.com/knowledge_base/topics/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash?from_search=true)
 * [EtherScamDb.info](https://etherscamdb.info/scams/)
+* [Decentraland to reimburse victim after compromised official account scams investor out of 500 ETH](https://www.reddit.com/r/ethtrader/comments/6t7myf/decentraland_to_reimburse_victim_after/)
 
 <br />
 
@@ -340,7 +406,7 @@ A bug in the smart contracts The DAO was built on had vulnerabilities leading to
 
 * Smart contracts are high value targets when they hold funds. Make sure that your smart contracts are well tested and audited. Keep your smart contracts simple so it is easy to
   verify the functionality
-* See [The History of the DAO and Lessons Learned](https://blog.slock.it/the-history-of-the-dao-and-lessons-learned-d06740f8cfa5) and [search "The DAO hack lessons"](https://www.google.com/search?q=The+DAO+hack+lessons) 
+* See [The History of the DAO and Lessons Learned](https://blog.slock.it/the-history-of-the-dao-and-lessons-learned-d06740f8cfa5) and [search "The DAO hack lessons"](https://www.google.com/search?q=The+DAO+hack+lessons)
 
 <br />
 
@@ -389,7 +455,7 @@ Feb 8 2016
 I was using the [ethaddress.org](https://github.com/ryepdx/ethaddress.org) software to generate a bulk list of paper wallets. I
 produced 80+ pairs of private and public keys.
 
-Being paranoid, I tested each generated pair by importing the private key into `geth` using the command 
+Being paranoid, I tested each generated pair by importing the private key into `geth` using the command
 `geth account import {privatekeyfile}` and I found some of the generated public keys did not match.
 
 So I created my first ever open source issue [#19 Invalid public key / private key generated](https://github.com/ryepdx/ethaddress.org/issues/19).
